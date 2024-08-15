@@ -37,5 +37,4 @@ class FlagShip(Smartphone):    # Derived Class / Child Class
         
 phone1 = Phone('Nokia', '1100', 1000)
 smartphone1 = Smartphone('OnePlus', '5', 30000, '6 GB', '64 GB', '20 MP')
-samsung = FlagShip('Samsung', 'Galaxy S10', 50000, '8 GB', '128 GB', '20 MP', '16 MP')
-print(samsung.full_name())
+print(smartphone1.full_name())

@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6c86dce9-2e71-4b42-9f98-d39e72cea67c</ProjectGuid>
+    <ProjectGuid>9554848d-8d7a-4446-b573-9250193d153f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_30_Polymorphism.py</StartupFile>
+    <StartupFile>_31_Python_OOP_Project.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>30_Polymorphism</Name>
-    <RootNamespace>30_Polymorphism</RootNamespace>
-    <InterpreterId>Global|VisualStudio|3.12.4</InterpreterId>
+    <Name>31_Python OOP Project</Name>
+    <RootNamespace>31_Python OOP Project</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_30_Polymorphism.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|VisualStudio|3.12.4" />
+    <Compile Include="_31_Python_OOP_Project.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
